@@ -28,7 +28,7 @@ website link: https://rafael211808.github.io/Calculator/
 ```text
 Calculadora/
 │
-├── calculator.html       # Main calculator structure and button events
+├── index.html       # Main calculator structure and button events
 │
 ├── styles/
 │   └── calculator.css    # Visual styling of the buttons and display
