@@ -1,40 +1,40 @@
-# 🧮 Calculadora Web Simples
+# 🧮 Simple Calculator Web
 
-Uma aplicação de calculadora web interativa desenvolvida com **HTML5**, **CSS3** e **JavaScript vanilla**, focada em estudos de manipulação do DOM e persistência de dados local.
-
----
-
-## 🚀 Funcionalidades
-
-* **Operações Básicas:** Soma (`+`), Subtração (`-`), Multiplicação (`*`) e Divisão (`/`).
-* **Cálculo Dinâmico:** Avaliação das expressões matemáticas ao clicar no botão `=` e exibição imediata do resultado na tela.
-* **Limpeza de Tela (`Clear`):** Botão para reiniciar o cálculo e limpar o histórico armazenado.
-* **Persistência de Dados (`localStorage`):** O cálculo atual é automaticamente salvo no navegador, permitindo que o estado anterior seja mantido mesmo após atualizar a página.
+An interactive web calculator application developed using **HTML5**, **CSS3**, and **vanilla JavaScript**, focused on the study of DOM manipulation and local data persistence.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🚀 Features
 
-* **HTML5:** Estrutura dos botões, visor de resultado e inclusão dos scripts.
-* **CSS3:** Estilização visual inspirada em calculadoras padrão (botões arredondados em tons de cinza e laranja, tema escuro).
-* **JavaScript:** Lógica de atualização de expressão, manipulação do DOM e gerenciamento do `localStorage`.
+* **Basic Operations:** Addition (`+`), Subtraction (`-`), Multiplication (`*`), and Division (`/`).
+* **Dynamic Calculation:** Mathematical expressions are evaluated upon clicking the `=` button, with the result displayed immediately on the screen.
+* **Screen Clearing (`Clear`):** A button to reset the calculation and clear the stored history.
+* **Data Persistence (`localStorage`):** The current calculation is automatically saved in the browser, allowing the previous state to be maintained even after refreshing the page.
 
 ---
 
-## 📂 Estrutura de Arquivos
+## 🛠️ Technologies Used
+
+* **HTML5:** Structure for the buttons and the result display, as well as the inclusion of scripts.
+* **CSS3:** Visual styling inspired by standard calculators (rounded buttons in shades of gray and orange, dark theme).
+* **JavaScript:** Logic for updating expressions, DOM manipulation, and `localStorage` management.
+
+---
+
+## 📂 File Structure
 
 ```text
 Calculadora/
 │
-├── calculator.html       # Estrutura principal da calculadora e eventos dos botões
+├── calculator.html       # Main calculator structure and button events
 │
 ├── styles/
-│   └── calculator.css    # Estilização visual dos botões e do visor
+│   └── calculator.css    # Visual styling of the buttons and display
 │
 └── scripts/
-    └── calculator.js     # Lógica do cálculo e persistência no localStorage
+    └── calculator.js     # Calculation logic and persistence in localStorage
 ```
 
-## ⚠️ Nota de Aprendizado
+## ⚠️ Learning Note
 
-* **Observação:** Este projeto utiliza a função nativa eval() do JavaScript para calcular o resultado das expressões. Essa abordagem foi utilizada estritamente para fins educacionais e de aprendizado. Em projetos de produção real, é recomendado evitar o uso de eval() devido a riscos potenciais de segurança.
+* **Note:** This project uses JavaScript’s native `eval()` function to calculate the result of expressions. This approach was employed strictly for educational and learning purposes. In actual production projects, it is recommended to avoid using `eval()` due to potential security risks.
