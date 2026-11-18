@@ -2,8 +2,6 @@
 
 An interactive web calculator application developed using **HTML5**, **CSS3**, and **vanilla JavaScript**, focused on the study of DOM manipulation and local data persistence.
 
-website link: https://rafael211808.github.io/Calculator/
-
 ---
 
 ## 🚀 Features
